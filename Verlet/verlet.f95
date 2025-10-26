@@ -3,7 +3,7 @@ PROGRAM verlet
         ! Variable declaration
         INTEGER, PARAMETER :: wp = SELECTED_REAL_KIND (p=13, r=300) !comando che genera un parametro che ci permette di avere gli integer come numeri in double precision
         INTEGER :: i, k
-        REAL :: t, m, vx, vy, vz, fx, fy, fz, x, y, z, xf, yf, zf, vxf, vyf, vzf
+        REAL (KIND=wp) :: t, m, vx, vy, vz, fx, fy, fz, x, y, z, xf, yf, zf, vxf, vyf, vzf
         
        ! Variable assignement
        k=10
