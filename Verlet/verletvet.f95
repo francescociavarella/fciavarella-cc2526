@@ -45,7 +45,7 @@ PROGRAM verletvet
         OPEN (UNIT=12, FILE="verletvet_outpu.txt", STATUS="replace", ACTION="write")
 
         DO n=1, k+1
-        WRITE (UNIT=12, FMT=*) xmat(n,1), xmat(n,2), xmat(n,3), "", vmat(n,1), vmat(n,2), vmat(n,3)
+              WRITE (UNIT=12, FMT=*) xmat(n,1), xmat(n,2), xmat(n,3), "", vmat(n,1), vmat(n,2), vmat(n,3)
         ENDDO
   
 
